@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+td{
+    padding: 15px;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(35, 35, 35);
+}
+
+.one td{
+    height: 30px;
+}
+.row td{
+    width: 50px;
+    height: 50px;
+}
+
+button{
+    background-color: rgba(95, 158, 160, 0);
+    color: white;
+    border: 0;
+}
+table{
+    background-color: rgb(118, 118, 118);
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 300px;
+    width: 900px;
+    border: 1px solid black;
+    box-shadow: black 10px 10px 10px ;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+

@@ -1,0 +1,18 @@
+table{
+    background-color: rgb(110, 137, 137);
+    height: 300px;
+    width: 650px;
+    border: 5px solid rebeccapurple;
+}
+
+tbody{
+    text-align: center;
+    background-color: white;
+}
+
+div{
+   padding-left: 500px;
+   padding-top: 100px;
+   margin: 50px;
+   
+}
