@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.div1{
+    border: 1px solid black;
+    height: 100px;
+    width: 1200px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.div2,.div4,.div3{
+    height: 80px;
+    width: 370px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.div5,.div6{
+    border: 1px solid black;
+    height: 60px;
+    width: 120px;
+}
+
+.div7{
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+}
+
+.div8{
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.div9{
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+}
+
+
+
+.div10{
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.box2{
+    height:200px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div11,.div12,.div13,.div14{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+.div15{
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div18{
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+}
+.div16,.div17{
+    height: 100px;
+    width: 70px;
+    border: 1px solid black;
+}
+.body2{
+    display: flex;
+    height: 200px;
+    width: 1200px;
+    margin-left: 40px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.div19{
+    border: 1px solid black;
+    height: 100px;
+    width: 1200px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.div20,.div23{
+    height: 80px;
+    width:400px;
+    border: 1px solid black;
+}
+.div21,.div22{
+    height: 80px;
+    width: 160px;
+    border: 1px solid black;
+}
