@@ -1,0 +1,111 @@
+*{
+  
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: black;
+    height: 585px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.bob1{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(84, 167, 17);    
+    border-radius: 150px 150px 0 0;
+    margin: auto;
+    rotate: -20deg;
+    
+    animation-name: bob1;
+}
+
+.bob2{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(84, 167, 17);    
+    border-radius:0 0 150px 150px ;
+    margin: auto;
+    rotate: 20deg;
+    animation-name: bob;
+    position: relative;
+    bottom: 193px;
+}
+
+@keyframes bob{
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    90%{
+        transform: rotate(-20deg); 
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+
+@keyframes bob1{
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    90%{
+        transform: rotate(20deg);
+        
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+
+.eye{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(28, 22, 20);
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+
+.ball{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(177, 49, 6);
+    border-radius: 50%;
+    position: relative;
+    bottom: 385px;
+    left: 1000px;
+    animation-name: ball ;
+    animation-duration: 1.3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;  
+}
+.bob{   
+    animation-duration: 1.3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes ball{
+    0%{
+        transform: translateX(0);
+    }
+    99%{
+        background-color: rgba(245, 245, 220, 0);
+    }
+    100%{
+        transform: translateX(-330px);
+        background-color: rgba(245, 245, 220, 0);
+        animation-play-state: paused;
+    } 
+}

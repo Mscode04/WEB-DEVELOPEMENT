@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: black;
+    height: 585px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 50%;
+    animation: x 0.6s linear 0.1s infinite; 
+}
+
+.dot2{
+  animation-delay: 0.6S;  
+}
+.dot3{
+  animation-delay: 0.3S;  
+}
+@keyframes x{
+    0%{
+        transform: translateY(0);
+        background-color: aquamarine;
+    }
+    50%{
+        transform: translateY(5px);
+        background-color: rgb(201, 236, 0);
+    }
+    100%{
+        transform: translateY(0);
+        background-color: brown;
+    }
+}
+
+h1{
+    color: rgb(174, 174, 174);
+    position: relative;
+    top:50px;
+    right: 112px;
+}
