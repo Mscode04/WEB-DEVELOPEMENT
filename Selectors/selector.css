@@ -1,0 +1,94 @@
+
+/* BASIC SELECTORS */
+.class-name{
+    background-color: blue;
+}
+
+
+/* UNIVERSAL SELECTORS */
+*{
+    background-color: blanchedalmond;
+}
+
+
+
+/* TYPE SELECTORS */
+div{
+    color: rgb(255, 0, 0);
+}
+
+
+
+/* class selectors */
+.btn{
+    border: 5px solid rgb(230, 29, 196);
+}
+
+.one{
+    border-radius: 10px;
+}
+
+.two{
+    font-size: x-large;
+}
+
+
+/* ID SELECORS */
+#hd1{
+    color: rgb(139, 167, 29);
+}
+
+#hd2{
+    color: blueviolet;
+}
+
+
+
+
+/* descendant selectors */
+div{
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+/* direct child selectors */
+div > span{
+    color: brown;
+}
+
+
+
+
+/* general siblings selectors */
+div ~ a{
+    color: rgb(14, 213, 27);
+}
+
+/* adjacent sibling selector */
+/* take first child */
+div + a{
+    color: rgb(14, 213, 27);
+}
+
+
+/*  or selectors*/
+/* any one of the tag  */
+div,span{
+    color: coral;
+}
+
+
+/* and selectors */
+/* both condintion are true , div and red  */
+div.red{
+    color: darkblue;
+}
+
+
+/* importent noted of compiation selectors */
+div.class > .child-class1.red{
+    color: aliceblue;
+}
