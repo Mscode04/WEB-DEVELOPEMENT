@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
+    
+    
+}
+
+
+.main{
+    display: flex;
+    margin-top: 180px;
+    justify-content: center;
+}
+
+.condainer{
+    background-color: aliceblue;
+    height: 300px;
+    width:800;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 4px solid black;
+    box-shadow: 10px 10px 10px;
+   
+} 
+
+button{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(82, 82, 82);
+    border-radius: 6px;
+    color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    
+
+    
+}
+
+.row2,.row1,.row3,.row4,.row5,.row6{  
+    background-color:aliceblue;     
+}
+
+
+.row2 button{
+    height: 36px;
+    width: 41px;
+}
+
+.backspace{
+    padding-left: 38px;
+    padding-right: 99px;  
+}
+
+.row3 button{
+    height: 36px;
+    width: 46px;
+}
+#tab{
+    padding-left: 26px;
+    padding-right: 50px;
+}
+
+#enter{
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+.row41{
+    width: 47px;
+}
+
+
+.row5 button{
+    width: 50px;
+}
+
+.row6 button{
+    width: 60px;   
+}
+
+.prt{
+    width: 44px;
+    height: 36px;
+    padding: 1px;
+
+}
+
+.sht{
+    padding-left: 37px;
+    padding-right: 66px;
+}
+
+#sp{
+    padding-left: 45px;
+    padding-right: 75px;
+    text-align: center;
+}
+
+.cnd{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button:hover{
+    background-color: blue;
+    color: rgb(0, 0, 0);
+}
