@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+label{
+    font-family: sans-serif;
+    
+}
+input{
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.main{
+    background-color: rgb(215, 255, 203);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-main{
+    height: 75%;
+    width: 37%;
+    background-color: rgb(236, 255, 255);
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+}
+.names{
+    width: 350px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.name #name1{
+    margin-right: 10px;
+}
+#name1,#name2{
+    width: 250px;
+    height: 30px;
+}
+.mail{
+    margin-top: 15px;
+}
+#email{
+    width: 515px;
+    height: 30px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#msg{
+    width: 515px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#checkbox{
+    height: 15px; 
+    width: 15px;
+}
+#submit{
+    width: 515px;
+    height: 50px; 
+    margin-top: 5px;
+    background-color: rgb(0, 87, 0);
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+#submit:hover{
+    background-color: rgb(37, 52, 34);
+}
+.radio-group{
+    display: flex;
+    width: 515px;
+}
+.radio{
+    width: 250px;
+    height: 33px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 6px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.rd{
+    margin-right:15px;
+}
