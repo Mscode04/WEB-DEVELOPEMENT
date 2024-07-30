@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(42, 42, 42);
+    height: 585px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.page{
+    height: 210px;
+    width: 218px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    border: 10px solid rgb(234, 234, 234);
+    border-radius: 10px ;
+}
+
+.line{
+    width: 150px;
+    border: 3px solid rgb(223, 223, 223);
+}
+
+h1{
+    margin-top: 20px;
+    color: azure;
+}
