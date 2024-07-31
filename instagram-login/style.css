@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.box-body-p{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box-body-c{
+    height: 440px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram-img img{
+    height: 60px;
+    width: 180px;
+    margin-top: 47px;
+    margin-left: 88px;
+    margin-right: 88px;
+
+    
+ }
+ #username{
+    height: 37px;
+    width: 268px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-color: #dbdbdb;
+    margin-top: 40px;
+    margin-left: 41px;
+ }
+
+ #password{
+    height: 37px;
+    width: 268px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-color: #dbdbdb;
+    margin-top: 8px;
+    margin-left: 41px;
+ }
+ #submit{
+    height: 32px;
+    width: 268px;
+    color: white;
+    background-color: rgb(65, 137, 214);
+    border: 0;
+    border-radius: 5px;
+    margin-left: 41px;
+    margin-top: 15px;
+ }
+
+ .or-1{
+    height: 1px;
+    width: 107px;
+    background-color:#dbdbdb;
+    position: relative;
+    top: 28px;
+    right: 80px;
+ }
+
+ .or-2{
+    height: 1px;
+    width: 107px;
+    background-color: #dbdbdb;
+    position: relative;
+    top: 10px;
+    left: 80px;
+ }
+
+ .or span{
+    position: relative;
+    top: 19px;
+    left: 45px;
+ }
+ .face-b{
+   position: relative;
+   top: 50px;
+   
+ }
+ .face-b a{
+   text-decoration: none;
+   color: #316FF6;
+ }
+
+ .face-b button{
+   border-color: #dbdbdb;
+  color: #316FF6;
+  font-size: 16px;
+  padding: 0;
+   border: 0;
+   margin-right: 5px;
+ }
+
+ .forgot a{
+   text-decoration: none;
+   position: relative;
+   top:80px;
+ }
+
+ .box-2{
+   height: 62px;
+   width: 1533px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .box-2-c{
+      height: 62px;
+      width: 350px;
+      margin-top: 10px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #dbdbdb;
+      
+ }
+
+ .box-2-c a{
+   text-decoration: none;
+   color: #316FF6;
+}
+
+.img-3 img{
+   width: 134px;
+   height: 43px;
+   background-color: #316FF6;
+   
+}
+
+.box-3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   height: 100px;
+}
+
+.box-3-c span{
+   display: contents;
+   align-items: center;
+   justify-content: center;
+
+  
+}
+
+.box-3-c{
+   background-color: white;
+   height: 90px;
+   width: 350px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 90px;
+   margin-bottom: 10px;
+}
+
+
+.footer-1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
