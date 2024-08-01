@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo-b{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to right top, #f9ce34,  #ee2a7b,#6228d7);
+    border-radius: 40px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+.white-1{
+    background-color: white;
+    height: 240px;
+    width: 240px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.round-1{
+    background-image: linear-gradient(to right top, #f9b134,  #ee2a7b,#6228d7);
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-2{
+    background-color: rgb(252, 252, 252);
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+}
+.small-round{
+    background-image: linear-gradient(to right top, #bd28d7,#6228d7);
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+}
+.insta h1{
+    font-family:sans-serif;
+    margin-left: 550px;
+    margin-top: 30px;
+    font-size: 36px;
+    color: linear-gradient(to right top, #bd28d7,#6228d7);
+
+}
