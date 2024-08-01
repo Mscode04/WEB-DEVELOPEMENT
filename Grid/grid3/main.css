@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border: 1px solid black;
+
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+li{
+    background-color: brown;
+    margin: 5px;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    font-size:x-large;
+}
+#b{
+    width: 200px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 5px;
+    font-size:x-large;
+    margin: 5px;
+    height: 30px;
+}

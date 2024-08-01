@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: rgb(202, 202, 202);
+    width: 1579px;
+    height: 750px;
+    padding: 50px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+    
+}
+.div1{
+    background-color: rgb(150, 16, 177);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 20px;
+    border-radius: 30px;
+}
+.H1{
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns:  0.12fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    border-radius: 30px;
+    color: rgb(227, 227, 227);
+}
+.H1 #ket{
+    grid-column-start: 2;  
+    grid-column-end: 3;
+
+}
+.H1 img{
+    grid-row-start: 1;  
+    grid-row-end: 3;
+    border-radius: 50px;
+    align-self: center;
+}
+.H2 h1{
+    font-size: 22px;
+    color: rgb(205, 205, 205);
+    margin-bottom: 20px;
+    
+}
+.H2 span{
+    font-size: 20px;
+    color: rgb(159, 159, 159);
+}
+.div2{
+    background-color: rgb(52, 51, 58);
+    padding: 20px;
+    border-radius: 30px;
+    
+ 
+}
+.div3{
+    background-color: rgb(255, 255, 255);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    padding: 20px;
+    border-radius: 30px;
+    color: black;
+}
+.H3 h1{
+    color: rgb(82, 82, 82);
+}
+.H4 h1{
+    color: black;
+}
+.div4{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+.div5{
+    background-color: rgb(26, 28, 32);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 20px;
+    border-radius: 30px;
+}
