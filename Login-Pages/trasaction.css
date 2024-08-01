@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header  /* HEADER */
+{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 0.7fr 6fr 0.7fr 0.7fr 0.7fr ; 
+    position: sticky;
+    
+} 
+
+
+.logo img   /* LOGO */
+{    
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+
+
+.head-top  /* HEADING  */
+{
+    margin-top: 18px;
+    
+}
+
+
+.head-top p   /* HEADING  */
+{
+    font-size: 15px;
+    font-family: fantasy;
+    color: white;       
+}
+
+.head-top span    /* HEADING  */
+{
+    font-size: 30px;
+    font-family: fantasy;
+    color: white;
+}
+
+
+.btn button   /* BUTTONS  */
+{
+   padding: 10px;
+   margin-top: 10px;
+   background-color: rgba(18, 18, 18, 0);
+   color: #99642e;
+   border: 0;
+   font-size: 25px;
+}
+
+
+.btn a  /* BUTTONS NAMES  */
+{
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+
+.btn-contact button /* BUTTONS  */
+{
+    margin-left: 15px;
+}
+.btn-home button   /* BUTTONS  */
+{
+    margin-right:10px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    background-color: #412e1b;
+    width: 100%;
+    height: 678px;
+    padding-top: 50px;
+}
+
+.lebals{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin:auto;
+    border-radius: 10px;
+    
+    
+}
+.lebals h1{
+    padding-bottom: 40px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#password{
+    width: 195px;
+    height: 40px;
+    
+    border-radius: 10px ;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    
+}
+#amount{
+    margin-top: 20px;
+}
+#user-name,#date,#amount,#ac-no{
+    width:400px;
+    height: 40px;
+    border-radius: 10px ;
+    padding: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    
+}
+#submit{
+    height: 35px;
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #99642e;
+}
+
+#submit:hover{
+    height: 35px;
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #412c18;
+
+}
