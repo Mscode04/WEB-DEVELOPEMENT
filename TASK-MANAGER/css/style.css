@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: radial-gradient(circle, #cc7f1c, #da5a4b, #c74677, #954c99, #4456a2);
+    height: 100vh;
+    width: 100vw;
+}
+.input{
+    height: 100%;
+    width: 130%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #4455a26d;
+    border: 2px solid #954c99;
+    box-shadow: 5px 5px 10px;
+}
+.input h1{
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px #412042;
+}
+.in-text{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 40px;
+    font-size: 25px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+.in-text button{
+    background-color: #4456a2;
+    border: 0;
+    border-radius: 30px;
+    padding: 15px;
+    color: black;
+}
+.in-text button:hover{
+    background-color: #954c99;   
+}
+.listchid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: auto;
+    align-items: center;
+    justify-content: end;  
+}
+.lichid {
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: auto;  
+}
+
+
+.child2{
+    display: flex;
+    width:100%;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.child2 button{
+    margin-left: auto;
+}
+.child3 {
+    font-size: 25px;
+    color: rgb(198, 200, 202);
+      
+}
+.hidden{
+    display: none;
+}
+.manager{
+    background-color: rgba(0, 0, 0, 0.42); 
+    width: max-content;
+    border-radius: 30px;
+    padding: 10%; 
+    margin-top: 3%;
+}
+.btn2{
+    background-color: #4456a2;
+    color: aliceblue;
+    border: 0;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 2%;
+}
+.btn3{
+    background-color: #da5a4b;
+    color: aliceblue;
+    border: 0;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 0.1%;
+    
+}
+.btn4{
+    background-color: #c74677;
+    color: aliceblue;
+    border: 0;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 1%;
+}
+.finished .btn4{
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.564);
+}
+.finished li{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    color: rgb(255, 0, 0);
+}

@@ -1,0 +1,43 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: 100%;
+}
+.main{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(240, 248, 255, 0.463);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.tr input{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+label{
+    margin-top: 20px;
+}
+.sub{
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.but{
+    background-color: blue;
+    height: 30px;
+    width: 80px;
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+}
